@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Api</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>Weather Api</h1>
+    <button type="button" id="fetch-btn">Fetch Data</button>
+    <div class="coordinate-div">
+      <span>Lat:</span>
+      <span>Long:</span>
+      <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+    </div>
+
+    <div class="weather-div">
+      <h1>Weather Data</h1>
+      <div class="details">
+        <span id="location-detail">Location:</span>
+        <div class="pos">
+          <span>Lat:</span>
+          <span>Long:</span>
+        </div>
+        <span id="Temperature">TimeZone:</span>
+        <span id="Timezone">TimeZone:</span>
+        <span id="Wind-speed">Wind Speed:</span>
+        <span id="Pressure">Pressure:</span>
+        <span id="Humidity">Humidity:</span>
+        <span id="wind">Wind Direction:</span>
+        <span id="UV-Index">UV Index:</span>
+        <span id="UV-Index"">Feels Like:</span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
